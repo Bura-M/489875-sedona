@@ -24,6 +24,7 @@
     </header>
 
     <!-- Промо сайта -->
+    <main class="content">
     <div class="promo">
       <img src="img/promo-logo.png" alt="welcome sedona" width="458" height="352">
     </div>
@@ -95,12 +96,41 @@
       <h2 class="search-title">Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки,<br>и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
       <button type="button" name="search-btn">Поиск гостиницы в Седоне</button>
-      <!-- Здесь будет карта и форма -->
+
       <div class="form">
-        <form>
+        <form class="form" action="/search" method="post">
+         <fieldset class="form-row">
+           <label class="form-label" for="date-in">Дата заезда:</label>
+           <input class="form-input-date" type="date" name="date-in" id="date-in" value="2017-04-24">
+           <span class="icon-calendar"></span>
+         </fieldset>
+
+         <fieldset class="form-row">
+           <label class="form-label" for="date-out">Дата выезда:</label>
+           <input class="form-input-date" type="date" name="date-out" id="date-out" value="2017-07-04">
+           <span class="icon-calendar"></span>
+         </fieldset>
+
+         <fieldset class="counters form-row">
+           <fieldset class="counter">
+             <label class="form-label" for="counter-adult">Взрослые:</label>
+             <button class="icon-minus" type="button" tabindex="-1"></button>
+             <input class="form-input-counter" type="text" name="counter-adult" id="counter-adult" value="2">
+             <button class="icon-plus" type="button" tabindex="-1"></button>
+           </fieldset>
+           <fieldset class="counter">
+             <label class="form-label" for="counter-children">Дети:</label>
+             <button class="icon-minus" type="button" tabindex="-1"></button>
+             <input class="form-input-counter" type="text" name="counter-children" id="counter-children" value="0">
+             <button class="icon-plus" type="button" tabindex="-1"></button>
+           </fieldset>
+         </fieldset>
+
+         <input class="btn-search" type="submit" value="Найти">
         </form>
       </div>
     </section>
+   </main>
 
     <footer class="main-footer">
       <a href="#" class="hashtag">#visitsedona</a>
