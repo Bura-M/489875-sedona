@@ -13,12 +13,12 @@
 
 		<header class="main-header">
 			<nav class="main-navigation">
-				<a href="index.html"><img src="http://placehold.it/138x70" alt="logo" width="138" height="70"></a>
+				<a href="index.html"><img src="img/logo.png" alt="logo" width="138" height="70"></a>
 				<ul>
 					<li><a href="#">Информация</a></li>
 					<li class="offset"><a href="#">Фото и видео</a></li>
 					<li><a href="#">Карта штата</a></li>
-					<li><a href="catalog.html">Гостиницы</a></li>
+					<li><a>Гостиницы</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -29,7 +29,7 @@
 				<form class="filters row" action="/filter" method="get">
 					<div class="filter-options column column-double">
 						<fieldset class="options">
-							<h2 class="filter-title">Инфраструктура:</h2>
+							<legend class="filter-title">Инфраструктура:</legend>
 							<ul>
 								<li>
 									<input class="form-checkbox" id="check-f-1" type="checkbox" name="facilities" value="val-1" checked>
@@ -46,7 +46,7 @@
 							</ul>
 						</fieldset>
 						<fieldset class="options">
-							<h2 class="filter-title">Тип жилья:</h2>
+							<legend class="filter-title">Тип жилья:</legend>
 							<ul>
 								<li>
 									<input class="form-checkbox" id="check-h-1" type="checkbox" name="housing" value="val-1" checked>
@@ -68,13 +68,13 @@
 						<h2 class="filter-title">Стоимость в сутки (Р):</h2>
 						<div class="cost-control" id="cost-control">
 							<div class="cost-group">
-								<label>от <input class="cost-input-min" type="text" name="cost-from" value="0"></label>
-								<label>до <input class="cost-input-max" type="text" name="cost-to" value="3000"></label>
+								<label tabindex="0">от <input class="cost-input-min" type="text" name="cost-from" value="0"></label>
+								<label tabindex="0">до <input class="cost-input-max" type="text" name="cost-to" value="3000"></label>
 							</div>
 							<div class="range">
 								<div class="scale">
-									<button class="scale-slider-min" type="button" tabindex="-1"></button>
-									<button class="scale-slider-max" type="button" tabindex="-1"></button>
+									<button class="scale-slider-min" type="button"></button>
+									<button class="scale-slider-max" type="button"></button>
 								</div>
 							</div>
 						</div>
@@ -85,7 +85,7 @@
 
 			<!-- Найдено, сортировка и т.д -->
 			<div class="search-results clearfix">
-				<div class="search-results-left">Найдено: 3</div>
+				<p class="search-results-left">Найдено: 3</p>
 				<div class="search-results-center">
 					<p>Сортировка</p>
 					<ul>
@@ -102,7 +102,9 @@
 
 			<!-- Превью отелей -->
 			<section class="hotel">
-				<img src="img/hotel1.jpg" alt="hotel-picture" width="135" height="90">
+				<div class="image-hotel">
+					<img src="img/hotel1.jpg" alt="hotel-picture" width="135" height="90">
+				</div>
 				<div class="hotel-content">
 					<a href="#" class="link-title">Amara Resort & Spa</a>
 					<div class="hotel-btn">
@@ -126,7 +128,9 @@
 			</section>
 
 			<section class="hotel">
-				<img src="img/hotel2.jpg" alt="hotel-picture" width="135" height="90">
+				<div class="image-hotel">
+					<img src="img/hotel2.jpg" alt="hotel-picture" width="135" height="90">
+				</div>
 				<div class="hotel-content">
 					<a href="#" class="link-title">Desert Quail Inn</a>
 					<div class="hotel-btn">
@@ -148,7 +152,9 @@
 			</section>
 
 			<section class="hotel">
-				<img src="img/hotel3.jpg" alt="hotel-picture" width="135" height="90">
+				<div class="image-hotel">
+					<img src="img/hotel3.jpg" alt="hotel-picture" width="135" height="90">
+				</div>
 				<div class="hotel-content clearfix">
 					<a href="#" class="link-title">Villas at Poco Diablo</a>
 					<div class="hotel-btn">
