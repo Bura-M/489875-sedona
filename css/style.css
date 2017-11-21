@@ -35,36 +35,21 @@ body {
 
 .nav__list {
  display: flex;
- margin: 0;
- padding-left: 6%;
- padding-right: 6%;
+ margin-left: 6%;
  height: 55px;
  justify-content: space-between;
  align-items: center;
  z-index: 0;
+ list-style:none;
+}
+
+.nav__item:nth-child(4n+4){
+ margin-right: 6%;
+ text-align: right;
 }
 
 .nav__item {
  width: 20%;
- list-style-type: none;
-}
-
-.nav__item-first {
- text-align: left;
-}
-
-.nav__item-second {
- text-align: left;
- margin-right: 52px;
-}
-
-.nav__item:nth-child(3) {
- text-align: right;
-}
-
-.nav__item:nth-child(4) {
- text-align: right;
- margin-left: 73px;
 }
 
 a {
@@ -72,13 +57,10 @@ a {
 }
 
 .main-navigation a {
- display: block;
- padding: 15px 0;
  font-size: 14px;
- line-height: 26px;
  font-weight: bold;
  text-align: center;
- text-decoration: none;
+ /*text-decoration: none;*/
  color: #000;
 }
 
@@ -572,22 +554,19 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 
 .filters {
  display: flex;
- justify-content: space-between;
  padding-bottom: 30px;
  padding-top: 26px;
- align-items: center;
  color: white;
  background: #766357 url("img/filter-hotels.jpg") no-repeat;
  background-size: cover;
  height: 217px;
- width: 100%;
+ padding-left: 6%;
+ padding-right: 6%;
 }
 
 .filter-options {
- justify-content: flex-start;
- padding-left: 6%;
- width: 241px;
- height: 217px;
+ display: flex;
+ width: 50%;
 }
 .filter-options ul, .filter-house ul {
  list-style: none;
@@ -601,12 +580,8 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 }
 
 .filter-cost {
- justify-content: flex-end;
- margin: 0;
- margin-left: 200px;
- width: 328px;
- height: 100%;
- padding-right: 6%;
+margin-left: auto;
+width: 30%;
 }
 
 
@@ -744,16 +719,11 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
  padding-bottom: 19px;
  border-bottom: 2px solid #e5e5e5;
  align-items: center;
- margin-left: 50px;
- width: 100%;
  vertical-align: middle;
 }
 
 .search-results-left {
- width: 135px;
- font-weight: bold;
- font-size: 21px;
- padding: 6%;
+ width: 135px
  font-weight: 800;
  font-size:12px;
  line-height: 18px;
@@ -763,11 +733,6 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 .hotel-content {
  justify-content: flex-start;
  max-width: 264px;
-}
-
-.search-results-right, .hotel-rating {
- justify-content: flex-end;
-  padding: 6%;
 }
 
 .hotel-btn {

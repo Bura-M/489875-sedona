@@ -16,18 +16,17 @@
 
 		<header class="main-header">
 			<nav class="main-navigation">
-				<a href="index.html"><img src="img/logo.png" alt="logo" width="138" height="70"></a>
+				<a href="index.html"><img class="logo" src="img/logo.png" alt="logo" width="138" height="70"></a>
 				<ul class="nav__list">
-						<li class="nav__item nav__item-first"><a href="#">Информация</a></li>
-						<li class="nav__item nav__item-second"><a href="#">Фото и видео</a></li>
-						<li class="nav__item nav__item-third"><a href="#">Карта штата</a></li>
-						<li class="nav__item nav__item-fourth active"><a href="catalog.html">Гостиницы</a></li>
+						<li class="nav__item"><a href="#">Информация</a></li>
+						<li class="nav__item"><a href="#">Фото и видео</a></li>
+						<li class="nav__item"><a href="#">Карта штата</a></li>
+						<li class="nav__item active"><a href="catalog.html">Гостиницы</a></li>
 			</nav>
 		</header>
 
 		<main class="content-catalog">
 			<!-- Форма фильтрации отелей -->
-			<div>
 				<form class="filters row" action="/filter" method="get">
 					<div class="filter-options column column-double">
 						<fieldset class="options">
@@ -83,7 +82,6 @@
 						<button class="btn-show" type="submit">Показать</button>
 					</div>
 				</form>
-			</div>
 
 			<!-- Найдено, сортировка и т.д -->
 			<div class="search-results">
