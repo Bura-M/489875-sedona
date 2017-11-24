@@ -43,10 +43,6 @@ body {
  margin: 0;
  padding: 0;
 }
-.nav__item:nth-child(4n+4) {
-  margin-right: 6%;
-  text-align: right;
-}
 
 .nav__item {
   width: 240px;
@@ -54,19 +50,20 @@ body {
 }
 
 .nav__item:first-child {
-  margin-left: 6%;
+  margin-left: 72px;
 }
 
 .nav__item:nth-child(4) {
-  margin-right: 6%;
+  margin-right: 72px;
+  text-align: right;
 }
 
-.nav__item:nth-child(2){
+.nav__item:nth-child(2) {
   text-align: left;
 }
 
 .nav__item:nth-child(3) {
- text-align: right;
+  text-align: right;
   margin-left: auto;
 }
 
@@ -158,8 +155,8 @@ a {
 .reason {
  /*box-sizing: border-box;*/
  width: 400px;
- padding-right: 6%;
- padding-left: 6%;
+ padding-right: 72px;
+ padding-left: 72px;
  font-size: 14px;
  line-height: 21px;
  padding-top: 39px;
@@ -465,7 +462,7 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 
 .footer-hashtag {
  padding: 17px 0;
- width: 33.3333%;
+ width: 400px;
  text-align: center;
 }
 
@@ -490,7 +487,7 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 }
 
 .footer-socials {
- width: 33.3333%;
+ width: 400px;
  justify-content: center;
 }
 
@@ -521,7 +518,7 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 
 .footer-copyright {
  padding: 6px 0;
- width: 33.3333%;
+ width: 400px;
  justify-content: center;
 }
 
@@ -541,12 +538,6 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
 }*/
 
 /*Страница поиска отелей*/
-.content-catalog {
- margin-left: 6%;
- margin-right: 6%;
-}
-
-
 .filters {
  display: flex;
  padding-bottom: 30px;
@@ -555,13 +546,13 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
  background: #766357 url("img/filter-hotels.jpg") no-repeat;
  background-size: cover;
  height: 217px;
- padding-left: 6%;
- padding-right: 6%;
+ padding-left: 72px;
+ padding-right: 72px;
 }
 
 .filter-options {
  display: flex;
- width: 50%;
+ width: 600px;
 }
 .filter-options ul, .filter-house ul {
  list-style: none;
@@ -571,12 +562,12 @@ input.booking-calendar:hover, input.booking-calendar-select:hover {
  justify-content: center;
  margin: 0;
  width: 288px;
- height: 100%;
+ height: 240px;
 }
 
 .filter-cost {
 margin-left: auto;
-width: 30%;
+width: 360px;
 }
 
 
@@ -615,7 +606,7 @@ width: 30%;
 .filter-checkbox {
  margin-top: 12px;
 }
-
+/*
 .price-frame {
  box-sizing: border-box;
  width: 98%;
@@ -689,7 +680,7 @@ width: 30%;
 
 .toggle:hover {
  background: #1c4f80;
-}
+}*/
 
 .btn-transparent {
  display: block;
@@ -708,9 +699,9 @@ width: 30%;
 
 .search-results, .hotel {
  display: flex;
- padding: 0 6%;
+ padding: 0 72px;
  margin-top: 18px;
- padding-left: 6%;
+ padding-left: 72px;
  padding-bottom: 19px;
  border-bottom: 2px solid #e5e5e5;
  align-items: center;
@@ -731,7 +722,6 @@ width: 30%;
 
 .hotel-content {
  justify-content: flex-start;
- max-width: 264px;
 }
 
 .hotel-btn {
@@ -832,7 +822,7 @@ width: 30%;
  text-decoration: none;
 }
 
-.hotel-image {
+.image-hotel {
  width: 135px;
  height: 90px;
 }
@@ -898,6 +888,7 @@ width: 30%;
 }
 
 .hotel-rating {
+ width: 120px;
  text-align: right;
 }
 
