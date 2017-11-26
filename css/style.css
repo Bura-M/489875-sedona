@@ -23,22 +23,24 @@ li {
 a {
   text-decoration: none;
 }
+
+.logo {
+ position: absolute;
+ left: 50%;
+ top: 0;
+ z-index: 1;
+ width: 138px;
+ margin-left: -69px;
+ height: 70px;
+}
+
 .main-header {
   position: relative;
   height: 60px;
 }
-.nav__logo-link {
- position: absolute;
- margin: auto;
- width: 138px;
- height: 70px;
- line-height: 0;
- color: transparent;
- background: transparent url('img/logo.png') no-repeat 0 0;
- z-index: 1;
- margin-left: 538px;
+.main-navigation {
+ position: relative;
 }
-
 .nav__list {
  display: flex;
  height: 55px;
@@ -226,10 +228,10 @@ a {
   padding: 0;
   padding-top: 60px;
   padding-bottom: 51px;
+  margin-left: auto;
+  margin-right: auto;
   width: 576px;
   text-align: center;
-  padding-left: 355px;
-  padding-right: 355px;
 }
 .reasons-title {
   font-size: 21px;
