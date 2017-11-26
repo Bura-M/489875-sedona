@@ -1042,16 +1042,8 @@ legend,
   align-items: center;
   display: flex;
   margin-top: -120px;
-  width: 100%
 }
 
-.main-footer__wrapper-catalog {
-  height: 120px;
-  background: rgba(255, 255, 255, 0.9);
-  width: 1200px;
-  align-items: center;
-  display: flex;
-}
 .tag {
   width: 33.3333%;
 }
