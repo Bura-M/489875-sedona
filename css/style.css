@@ -6,6 +6,8 @@ body {
   color:#ffffff;
   font-weight: 400;
   background: #f2f2f2;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .wrapper {
@@ -22,6 +24,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 
 .logo {
@@ -35,8 +38,7 @@ a {
 }
 
 .main-header {
-  position: relative;
-  height: 60px;
+  height: 56px;
 }
 .main-navigation {
  position: relative;
@@ -46,13 +48,13 @@ a {
  height: 55px;
  width: 1200px;
  align-items: center;
- z-index: 0;
  margin: 0;
  padding: 0;
 }
 .nav__item {
  width: 20%;
- padding-left: 0;
+ padding-top: 22px;
+ padding-bottom: 24px;
 }
 .nav__item-first {
   text-align: left;
@@ -113,6 +115,7 @@ a {
   width: 2px;
   height: 22px;;
   background: #ffffff;
+  transform: translate(-50%, -50%);
 }
 .price-controls label {
   display: inline-block;
@@ -262,7 +265,7 @@ a {
   line-height: 21px;
   background-color: #81b3d2;
   text-align: center;
-  width: 33.3333333%;
+  width: 400px;
   padding-right: 6%;
   padding-left: 6%;
   box-sizing: border-box;
@@ -270,7 +273,7 @@ a {
 }
 
 .reason-picture {
-  width: 66.669%;
+  width: 800px;
   background-size: cover;
 }
 
@@ -293,8 +296,8 @@ a {
   line-height: 21px;
   background-color: white;
   text-align: center;
-  padding-top: 50px;
-  width: 33.3333%;
+  padding-top: 30px;
+  width: 400px;
   padding-bottom: 60px;
 }
 .icon__souvenir,
@@ -330,19 +333,18 @@ a {
   padding-right: 55px;
   margin: 0;
   margin-top: 26px;
+  margin-bottom: 90px;
 }
 .reason-row-gray {
   line-height: 21px;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: rgb(241,241,241);
   min-height: 256px;
 }
 .reason-gray {
   padding-top: 46px;
-  width: 33.3333%;
+  width: 400px;
   padding-bottom: 56px;
 }
 
@@ -868,7 +870,6 @@ legend,
 .search-results-center p {
   font-family: "PT Sans",Arial,sans-serif;
   color: black;
-  font-weight: 800;
   padding-top: 1px;
 }
 .search-results-center p,
@@ -1057,6 +1058,7 @@ legend,
   line-height: 26px;
   color:black;
   margin-left: 133px;
+  font-weight: bold;
 }
 .social {
   display: flex;
