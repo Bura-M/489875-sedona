@@ -302,7 +302,8 @@ a {
 .reason p {
  padding-left: 48px;
  padding-right: 50px;
-}
+ margin-top: 30px;
+ }
 
 .reason-picture {
   height: 256px;
@@ -310,15 +311,16 @@ a {
   background-size: cover;
 }
 
+.reason-number {
+    margin-top: 30px;
+}
+
 .reason-row__title {
   font-size: 21px;
   color: white;
   text-align: center;
-}
-
-.city {
- padding-left: 137px;
- padding-right: 137px;
+  padding-left: 123px;
+  padding-right: 123px;
 }
 
 .reason-icon {
@@ -326,8 +328,8 @@ a {
   background-color: white;
   text-align: center;
   width: 400px;
-  padding-top: 48px;
-  padding-bottom: 80px;
+  padding-top: 60px;
+  padding-bottom: 69px;
 }
 
 .icon__souvenir {
@@ -348,14 +350,16 @@ a {
 .reason-title {
   font-size: 21px;
   color: black;
+  padding-top: 10px;
 }
 
 .reason__text {
   font-size: 14px;
   color: #333333;
   font-weight: normal;
-  padding-left: 65px;
-  padding-right: 64px;
+  padding-left: 48px;
+  padding-right: 50px;
+  padding-top: 3px;
 }
 
 .reason-row-gray {
@@ -389,7 +393,9 @@ a {
   color: #333333;
   font-weight: normal;
   padding-left: 70px;
-  padding-right: 70px;
+  padding-right: 68px;
+  margin-top: 19px;
+  margin-bottom: 15px;
 }
 
 .search__title {
@@ -412,7 +418,7 @@ a {
   color: black;
   text-align: center;
   padding-top: 28px;
-  padding-bottom: 38px;
+  /*padding-bottom: 38px;*/
 }
 
 .search__btn {
@@ -467,7 +473,7 @@ a {
   color: #ffffff;
   background-color: #766357;
 }
-.modal-show {
+/*.modal-show {
   display: block;
     animation: moving 0.6s;
 }
@@ -501,7 +507,7 @@ a {
     80% {
                 transform: translateX(10px);
     }
-   }
+   }*/
 
 .search-form {
   position: absolute;
@@ -654,7 +660,7 @@ a {
 .info__catalog {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  padding-top: 27px;
 }
 
 .developer__text {
