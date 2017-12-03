@@ -101,6 +101,7 @@ a {
   text-transform: uppercase;
   padding-bottom: 7px;
   margin-bottom: 5px;
+  margin-left: auto;
 }
 
 .filter-range-title {
@@ -312,7 +313,7 @@ a {
 }
 
 .reason-number {
-  margin-top: 30px;
+  margin-top: 22px;
 }
 
 .reason-row__title {
@@ -321,7 +322,7 @@ a {
   text-align: center;
   padding-left: 127px;
   padding-right: 119px;
-  margin-top: 3px;
+  margin-top: 0;
 }
 
 .reason-icon {
@@ -669,7 +670,6 @@ a {
   line-height: 26px;
   color: black;
   font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: 800;
   padding-bottom: 5px;
 }
 
@@ -682,7 +682,7 @@ a {
 }
 
 .search__map {
-  background: url("../img/map.jpg") no-repeat;
+  background: url("../img/map.png") no-repeat;
   height: 593px;
 }
 
@@ -728,9 +728,11 @@ a {
   min-height: 217px;
   align-items: center;
   padding: 0 6%;
-  justify-content: space-between;
 }
-
+.filter-options {
+ width: 255px;
+ padding-top: 7px;
+}
 .filtration__prices {
   width: 320px;
   margin-left: 350px;
@@ -753,7 +755,6 @@ a {
 
 fieldset {
   border: 0px;
-  margin-top: -35px;
   margin-left: 0;
   padding-left: 0;
 }
@@ -761,6 +762,7 @@ fieldset {
 .house {
   width: 367px;
   text-align: left;
+  padding-top: 8px;
 }
 
 .filter__checkbox:not(checked), .house__checkbox:not(checked) {
@@ -847,7 +849,6 @@ legend, .prices__title {
 }
 
 .filter__title {
-  padding-top: 40px;
   font-weight: bold;
   font-size: 16px;
 }
@@ -883,7 +884,7 @@ legend, .prices__title {
 .search-results {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #e5e5e5;
   padding: 0 6%;
   margin-top: 18px;
   padding: 0 6%;
@@ -895,9 +896,9 @@ legend, .prices__title {
   font-weight: bold;
   line-height: 26px;
   color: black;
-  padding-bottom: 5px;
   margin: 0 auto;
   white-space: nowrap;
+  padding-right: 3px;
 }
 
 .search-results-center {
@@ -911,8 +912,7 @@ legend, .prices__title {
 .search__list {
   font-size: 12px;
   display: flex;
-  padding-left: 35px;
-  padding-bottom: 2px;
+  padding-top: 4px;
   padding-left: 30px;
 }
 
@@ -927,14 +927,14 @@ legend, .prices__title {
 .search-results-center p {
   font-family: "PT Sans", Arial, sans-serif;
   color: black;
-  padding-top: 1px;
+  margin-top: 18px;
 }
 
 .search-results-center p, .sort__link {
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
-}
+ }
 
 .sort__link:active {
   font-size: 12px;
@@ -963,6 +963,7 @@ legend, .prices__title {
   text-decoration: underline dotted #81b3d2;
   font-family: "PT Sans", "Arial", sans-serif;
   cursor: pointer;
+  padding-right: 29px;
 }
 
 .sort__link-active {
@@ -972,6 +973,7 @@ legend, .prices__title {
   background-color: white;
   color: #81b3d2;
   text-decoration: none;
+  padding-right: 26px;
 }
 
 .hotel-btn {
@@ -990,7 +992,6 @@ legend, .prices__title {
   color: black;
   margin: 0;
   height: 16px;
-  margin-top: -4px;
   margin-bottom: 8px;
   height: 100%;
   max-width: 257px;
@@ -1010,6 +1011,7 @@ legend, .prices__title {
   line-height: 21px;
   color: #333333;
   margin: 0;
+  padding-top: 4px;
   padding-bottom: 14px;
   width: 110px;
 }
@@ -1080,7 +1082,8 @@ legend, .prices__title {
   text-align: center;
   box-sizing: border-box;
   margin: 0;
-  padding: 5px;
+  padding-bottom: 6px;
+  padding-left: 9px;
 }
 
 .hoter__right-wrapper {
