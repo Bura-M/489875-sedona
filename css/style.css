@@ -152,6 +152,7 @@ a {
 .price-controls input {
   width: 50px;
   margin: 0;
+  line-height: 21px;
   color: inherit;
   background: none;
   border: none;
@@ -217,7 +218,7 @@ a {
 
 .range-toggle:hover {
   background: #1c4f80;
-  border: 9px;
+  border-width: 9px;
 }
 
 .header-background-logo {
