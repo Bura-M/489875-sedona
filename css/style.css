@@ -108,6 +108,7 @@ a {
 
 .filter-range-title {
   margin-bottom: 9px;
+  padding-top: 5px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -765,6 +766,7 @@ fieldset {
   font-size: 14px;
   line-height: 21px;
   color: white;
+  padding-top: 2px;
   margin-bottom: 23px;
 }
 
@@ -772,12 +774,13 @@ fieldset {
   font-size: 14px;
   line-height: 21px;
   color: white;
+  padding-top: 2px;
   margin-bottom: 23px;
 }
 
-.house-list, .filter-list {
+/*.house-list, .filter-list {
   padding-top: 10px;
-}
+}*/
 
 .house-list {
   padding-left: 0;
@@ -787,6 +790,8 @@ fieldset {
 .filter-title {
   font-weight: bold;
   font-size: 16px;
+  margin-top: 13px;
+  padding-bottom: 9px;
 }
 
 .filter-list {
@@ -825,7 +830,7 @@ fieldset {
   font-size: 12px;
   display: flex;
   padding-top: 4px;
-  padding-left: 30px;
+  padding-left: 33px;
 }
 
 .search:nth-child(2) {
