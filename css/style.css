@@ -340,7 +340,7 @@ label.min-price {
   text-align: center;
   width: 400px;
   padding-top: 60px;
-  padding-bottom: 69px;
+  padding-bottom: 66px;
 }
 
 .icon-souvenir {
@@ -790,7 +790,7 @@ fieldset {
 }
 
 .house-checkbox:not(checked)+.filter-text, .house-checkbox:checked+.filter-text {
-  padding-left: 38px;
+  padding-left: 41px;
 }
 
 .filter-checkbox:not(checked)+.filter-text:before, .house-checkbox:not(checked)+.filter-text:before {
@@ -1222,7 +1222,7 @@ fieldset {
 .developer-img {
   width: 115px;
   height: 41px;
-  margin-left: 5px;
+  margin-left: 7px;
   fill: #000000;
 }
 
